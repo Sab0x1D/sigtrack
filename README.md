@@ -27,16 +27,3 @@ Organized to support red/blue/purple team workflows, SOC automation, and malware
 - Threat hunters organizing signature coverage
 
 ---
-
-## 🧾 Signature Block
-
--= [ _Sab0x1D_ ] =-  
-Digital Forensic Nomad → Hex-bound | Ghost-backed
-
-```txt
-Track • Profile • Burn:
-{
-  Silent ops;
-  Malware trace;
-  Infra teardown;
-}
