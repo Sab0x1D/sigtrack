@@ -1,16 +1,16 @@
-# 🛰️ sigtrack
+# sigtrack
 
 **IOC & Signature Tracker**  
 A curated repository for:
-- ✅ Sigma rules (log-based detection)
-- ✅ YARA rules (file/memory scanning)
-- ✅ CTI-mapped indicators (IPs, hashes, domains, etc.)
+- Sigma rules (log-based detection)
+- YARA rules (file/memory scanning)
+- CTI-mapped indicators (IPs, hashes, domains, etc.)
 
 Organized to support red/blue/purple team workflows, SOC automation, and malware tracebacks.
 
 ---
 
-## 📁 Structure
+## Structure
 
 | Folder     | Purpose                                       |
 |------------|-----------------------------------------------|
@@ -20,7 +20,7 @@ Organized to support red/blue/purple team workflows, SOC automation, and malware
 
 ---
 
-## 🔍 Use Cases
+## Use Cases
 
 - SOC and DFIR teams tracking malware families
 - CTI analysts mapping adversary infrastructure
