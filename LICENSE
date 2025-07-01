@@ -25,7 +25,6 @@ If you use or adapt this work:
 
 ---
 
-## Contact
 ## 🔐 GPG Public Key
 
 **Sab0x1D** (Threat Analyst · Ghost-backed)  
