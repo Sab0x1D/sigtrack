@@ -1,17 +1,17 @@
-# AgentTesla – C2 Patterns & IOC Mapping
+## Behavioral Indicators
 
-## Common C2 URLs:
-- `http://<host>/api/addlog`
-- `smtp.yandex.com`
-- `smtp.office365.com`
-- `mail.tutanota.com`
+- Registry Run Keys:
+  - `HKCU\Software\Microsoft\Windows\CurrentVersion\Run`
+  - Often uses values like `"Windows Update Service"` or `"System Manager"`
 
-## Common Mutexes:
-- `Mutex__Agt<Random>`
-- `Global\ASYSTEM_XX`
+- SMTP-based exfil:
+  - `"smtp.office365.com"`
+  - `"smtp.yandex.com"`
 
-## Notes:
-AgentTesla variants use SMTP or HTTP POST to exfiltrate keylogs and screenshots. C2 URLs often contain `/api/`, `/panel/`, or `/addlog` endpoints.
+- Credential capture indicators:
+  - `.NET usage of System.Net.NetworkCredential`
+  - PowerShell launchers with `-nop -w hidden`
 
-## Related Rules:
-- [ghostyara/families/agenttesla_basic.yar](https://github.com/Sab0x1D/ghostyara/blob/main/families/agent_tesla_basic.yar)
+## Related Rules
+- [`agenttesla_basic.yar`](https://github.com/Sab0x1D/ghostyara/blob/main/families/agent_tesla_basic.yar)
+- [`agenttesla_behavior.yar`](https://github.com/Sab0x1D/ghostyara/blob/main/ttps/agenttesla_behavior.yar)
