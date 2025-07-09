@@ -13,5 +13,5 @@
   - PowerShell launchers with `-nop -w hidden`
 
 ## Related Rules
-- [`agenttesla_basic.yar`](https://github.com/Sab0x1D/ghostyara/blob/main/families/agent_tesla_basic.yar)
+- [`agenttesla_basic.yar`](https://github.com/Sab0x1D/ghostyara/blob/main/families/agenttesla_basic.yar)
 - [`agenttesla_behavior.yar`](https://github.com/Sab0x1D/ghostyara/blob/main/ttps/agenttesla_behavior.yar)
