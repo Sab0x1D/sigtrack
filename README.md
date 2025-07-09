@@ -1,4 +1,4 @@
-# 📡 sigtrack
+# sigtrack
 
 **IOC & Signature Tracker**  
 A curated repository for mapping and organizing threat detection signatures and indicators.
