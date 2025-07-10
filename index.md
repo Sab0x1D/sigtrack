@@ -5,3 +5,4 @@
 | Agent Tesla        | [yara_map](./yara_map/agenttesla_yara_patterns.md) | [basic](https://github.com/Sab0x1D/ghostyara/blob/main/families/agenttesla_basic.yar) | [behavior](https://github.com/Sab0x1D/ghostyara/blob/main/ttps/agenttesla_behavior.yar) |
 | AsyncRAT           | [yara_map](./yara_map/asyncrat_yara_patterns.md) | [basic](https://github.com/Sab0x1D/ghostyara/blob/main/families/asyncrat_basic.yar) | [behavior](https://github.com/Sab0x1D/ghostyara/blob/main/ttps/asyncrat_behavior.yar) |
 | DCRat              | [yara_map](./yara_map/dcrat_yara_patterns.md) | [basic](https://github.com/Sab0x1D/ghostyara/blob/main/families/dcrat_basic.yar) | [behavior](https://github.com/Sab0x1D/ghostyara/blob/main/ttps/dcrat_behavior.yar) |
+| Remcos | [yara_map](./yara_map/remcos_c2_patterns.md) | [basic](https://github.com/Sab0x1D/ghostyara/blob/main/families/remcos_basic.yar) | [behavior](https://github.com/Sab0x1D/ghostyara/blob/main/ttps/remcos_behavior.yar) |
