@@ -1,4 +1,4 @@
-## Sigtrack Coverage Index (A–Z)
+## Sigtrack Coverage Index
 
 | Malware Family     | YARA Patterns | Static Rule | Behavioral Rule |
 |--------------------|----------------|--------------|------------------|
