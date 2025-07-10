@@ -1,7 +1,9 @@
 # sigtrack
 
 **IOC & Signature Tracker**  
-A curated repository for mapping and organizing threat detection signatures and indicators.
+A curated repository for mapping and organizing threat detection signatures and indicators.  
+[Map Index](./index.md)
+
 
 ---
 
