@@ -1,17 +1,40 @@
-## Behavioral Indicators
+# Agent Tesla – YARA Pattern Notes
 
-- Registry Run Keys:
-  - `HKCU\Software\Microsoft\Windows\CurrentVersion\Run`
-  - Often uses values like `"Windows Update Service"` or `"System Manager"`
+## Static Strings
 
-- SMTP-based exfil:
-  - `"smtp.office365.com"`
-  - `"smtp.yandex.com"`
+- `"This computer name is: "`
+- `"Mozilla\\Firefox\\Profiles"`
+- `"x-telegram-bot-token"`
+- `"ftp://"`
+- `"smtp."` or `"mail."`
+- `"FormGrabber"` or `"Keylogger"`
+- `"ScreenShot_"` or `"Screenshot saved to"`
 
-- Credential capture indicators:
-  - `.NET usage of System.Net.NetworkCredential`
-  - PowerShell launchers with `-nop -w hidden`
+## Mutex Patterns
 
-## Related Rules
-- [`agenttesla_basic.yar`](https://github.com/Sab0x1D/ghostyara/blob/main/families/agenttesla_basic.yar)
-- [`agenttesla_behavior.yar`](https://github.com/Sab0x1D/ghostyara/blob/main/ttps/agenttesla_behavior.yar)
+- `TeslaMutex_<RANDOM>`
+- Hardcoded or generated mutex in newer variants
+
+## .NET / Assembly Markers
+
+- `System.Windows.Forms.SendKeys`
+- `System.Management` or `System.Reflection.Assembly`
+- Uses embedded resources for config (encrypted strings)
+
+## Registry Keys (Persistence)
+
+- `HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run`
+  - Often named: `"Windows Update"` or `"AgentLoader"`
+
+## Execution Artifacts
+
+- Command shell:
+  - `cmd.exe /c start` with extracted payload
+- PowerShell launchers:
+  - `powershell -w hidden -noni -nop -enc <base64>`
+- DLL injection in loader variants
+
+## Related YARA Rules
+
+- [agenttesla_basic.yar](https://github.com/Sab0x1D/ghostyara/blob/main/families/agenttesla_basic.yar)
+- [agenttesla_behavior.yar](https://github.com/Sab0x1D/ghostyara/blob/main/ttps/agenttesla_behavior.yar)
