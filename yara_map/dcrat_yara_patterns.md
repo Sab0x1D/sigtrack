@@ -1,4 +1,4 @@
-# DCRat – YARA Pattern Notes
+# DcRAT – YARA Pattern Notes
 
 ## Static Strings
 
@@ -41,5 +41,5 @@
 
 ## Related YARA Rules
 
-- [dcrat_basic.yar](https://github.com/Sab0x1D/ghostyara/blob/main/families/dcrat_basic.yar)
+- [dcrat_basic.yar](https://github.com/Sab0x1D/ghostyara/blob/main/families/dcrat_basic.yar)  
 - [dcrat_behavior.yar](https://github.com/Sab0x1D/ghostyara/blob/main/ttps/dcrat_behavior.yar)
