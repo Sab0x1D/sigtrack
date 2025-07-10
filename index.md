@@ -8,3 +8,4 @@
 | Remcos | [yara_map](./yara_map/remcos_c2_patterns.md) | [basic](https://github.com/Sab0x1D/ghostyara/blob/main/families/remcos_basic.yar) | [behavior](https://github.com/Sab0x1D/ghostyara/blob/main/ttps/remcos_behavior.yar) |
 | VenomRAT | [yara_map](./yara_map/venomrat_c2_patterns.md) | [basic](https://github.com/Sab0x1D/ghostyara/blob/main/families/venomrat_basic.yar) | [behavior](https://github.com/Sab0x1D/ghostyara/blob/main/ttps/venomrat_behavior.yar) |
 | XWorm | [yara_map](./yara_map/xworm_yara_patterns.md) | [basic](https://github.com/Sab0x1D/ghostyara/blob/main/families/xworm_basic.yar) | [behavior](https://github.com/Sab0x1D/ghostyara/blob/main/ttps/xworm_behavior.yar) |
+| Astaroth | [yara_map](./yara_map/astaroth_yara_patterns.md) | [basic](https://github.com/Sab0x1D/ghostyara/blob/main/families/astaroth_basic.yar) | [behavior](https://github.com/Sab0x1D/ghostyara/blob/main/ttps/astaroth_behavior.yar) |
