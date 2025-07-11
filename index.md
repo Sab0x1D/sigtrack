@@ -11,3 +11,4 @@
 | Astaroth | [yara_map](./yara_map/astaroth_yara_patterns.md) | [basic](https://github.com/Sab0x1D/ghostyara/blob/main/families/astaroth_basic.yar) | [behavior](https://github.com/Sab0x1D/ghostyara/blob/main/ttps/astaroth_behavior.yar) |
 | Lumma Stealer | [yara_map](./yara_map/lumma_yara_patterns.md) | [basic](https://github.com/Sab0x1D/ghostyara/blob/main/families/lumma_basic.yar) | [behavior](https://github.com/Sab0x1D/ghostyara/blob/main/ttps/lumma_behavior.yar) |
 | Metamorfo | [yara_map](./yara_map/metamorfo_yara_patterns.md) | [basic](https://github.com/Sab0x1D/ghostyara/blob/main/families/metamorfo_basic.yar) | [behavior](https://github.com/Sab0x1D/ghostyara/blob/main/ttps/metamorfo_behavior.yar) |
+| NetSupport Manager RAT | [yara_map](./yara_map/netsupport_yara_patterns.md) | [basic](https://github.com/Sab0x1D/ghostyara/blob/main/families/netsupport_basic.yar) | [behavior](https://github.com/Sab0x1D/ghostyara/blob/main/ttps/netsupport_behavior.yar) |
