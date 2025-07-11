@@ -13,3 +13,4 @@
 | Metamorfo | [yara_map](./yara_map/metamorfo_yara_patterns.md) | [basic](https://github.com/Sab0x1D/ghostyara/blob/main/families/metamorfo_basic.yar) | [behavior](https://github.com/Sab0x1D/ghostyara/blob/main/ttps/metamorfo_behavior.yar) |
 | NetSupport Manager RAT | [yara_map](./yara_map/netsupport_yara_patterns.md) | [basic](https://github.com/Sab0x1D/ghostyara/blob/main/families/netsupport_basic.yar) | [behavior](https://github.com/Sab0x1D/ghostyara/blob/main/ttps/netsupport_behavior.yar) |
 | Amadey | [yara_map](./yara_map/amadey_yara_patterns.md) | [basic](https://github.com/Sab0x1D/ghostyara/blob/main/families/amadey_basic.yar) | [behavior](https://github.com/Sab0x1D/ghostyara/blob/main/ttps/amadey_behavior.yar) |
+| Emotet | [yara_map](./yara_map/emotet_yara_patterns.md) | [basic](https://github.com/Sab0x1D/ghostyara/blob/main/families/emotet_basic.yar) | [behavior](https://github.com/Sab0x1D/ghostyara/blob/main/ttps/emotet_behavior.yar) |
