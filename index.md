@@ -16,3 +16,4 @@
 | Emotet | [yara_map](./yara_map/emotet_yara_patterns.md) | [basic](https://github.com/Sab0x1D/ghostyara/blob/main/families/emotet_basic.yar) | [behavior](https://github.com/Sab0x1D/ghostyara/blob/main/ttps/emotet_behavior.yar) |
 | LodaRAT | [yara_map](./yara_map/lodarat_yara_patterns.md) | [basic](https://github.com/Sab0x1D/ghostyara/blob/main/families/lodarat_basic.yar) | [behavior](https://github.com/Sab0x1D/ghostyara/blob/main/ttps/lodarat_behavior.yar) |
 | Mispadu | [yara_map](./yara_map/mispadu_c2_patterns.md) | [basic](https://github.com/Sab0x1D/ghostyara/blob/main/families/mispadu_basic.yar) | [behavior](https://github.com/Sab0x1D/ghostyara/blob/main/ttps/mispadu_behavior.yar) |
+| GULoader | [yara_map](./yara_map/guloader_c2_patterns.md) | [basic](https://github.com/Sab0x1D/ghostyara/blob/main/families/guloader_basic.yar) | [behavior](https://github.com/Sab0x1D/ghostyara/blob/main/ttps/guloader_behavior.yar) |
