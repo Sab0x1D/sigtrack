@@ -25,3 +25,4 @@
 | Grandoreiro | [yara_map](./yara_map/grandoreiro_yara_patterns.md) | [basic](https://github.com/Sab0x1D/ghostyara/blob/main/families/grandoreiro_basic.yar) | [behavior](https://github.com/Sab0x1D/ghostyara/blob/main/ttps/grandoreiro_behavior.yar) |
 | njRAT | [yara_map](./yara_map/njrat_yara_patterns.md) | [basic](https://github.com/Sab0x1D/ghostyara/blob/main/families/njrat_basic.yar) | [behavior](https://github.com/Sab0x1D/ghostyara/blob/main/ttps/njrat_behavior.yar) |
 | Nanocore | [yara_map](./yara_map/nanocore_yara_patterns.md) | [basic](https://github.com/Sab0x1D/ghostyara/blob/main/families/nanocore_basic.yar) | [behavior](https://github.com/Sab0x1D/ghostyara/blob/main/ttps/nanocore_behavior.yar) |
+| Poco RAT | [yara_map](./yara_map/pocorat_yara_patterns.md) | [basic](https://github.com/Sab0x1D/ghostyara/blob/main/families/pocorat_basic.yar) | [behavior](https://github.com/Sab0x1D/ghostyara/blob/main/ttps/pocorat_behavior.yar) |
