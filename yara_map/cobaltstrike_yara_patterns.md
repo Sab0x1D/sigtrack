@@ -1,23 +1,23 @@
-# Cobalt Strike – YARA Pattern Notes
+# Cobalt Strike – YARA Pattern Mapping
 
-## Static Configuration Markers
-- Malleable C2 strings:
-  - `http-get.uri`
-  - `http-post.uri`
-  - `publickey`
-- Common embedded URIs:
-  - `/submit.php`
-  - `/jquery-3.3.1.min.js`
-- XOR key pattern:
-  - `{ 2e 63 6f 6e 66 69 67 00 }` (may vary slightly)
+## Static Indicators
+- Malleable C2 configs often contain:
+  - `stage.cleanup`, `Malleable_C2`, or `cobaltstrike`
+- Pipes and internal references:
+  - `\\\\.\\pipe\\msagent_*`
+- Common launch commands:
+  - `"powershell -nop -w hidden"`
+- May contain hardcoded URL paths like `/submit.php`, `/profile.php`
 
-## Behavioral Traits
-- Named pipe: `\\\\.\\pipe\\MSSE-*`
-- Mutex or global object: `Global\\PostEx_Mutex`
-- Injection APIs observed:
-  - `VirtualAllocEx`
-  - `WriteProcessMemory`
-  - `CreateRemoteThread`
+## Behavioral Indicators
+- **Latest infection chain**:
+  - `.html` from Google Drive  
+  ⮕  `.zip` (pw protected)  
+  ⮕  `.iso` with `.lnk`, `.pdf`, and log files  
+  ⮕  `.lnk` launches PowerShell  
+  ⮕  Downloads Beacon  
+  ⮕  Executes only if `whoami` or region checks are passed
+- Execution often results in an outbound C2 callback, followed by possible ransomware stage
 
 ## Related YARA Rules
 - [cobaltstrike_basic.yar](https://github.com/Sab0x1D/ghostyara/blob/main/families/cobaltstrike_basic.yar)  
