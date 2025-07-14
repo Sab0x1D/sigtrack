@@ -21,3 +21,4 @@
 | FormBook | [yara_map](./yara_map/formbook_c2_patterns.md) | [basic](https://github.com/Sab0x1D/ghostyara/blob/main/families/formbook_basic.yar) | [behavior](https://github.com/Sab0x1D/ghostyara/blob/main/ttps/formbook_behavior.yar) |
 | BBTok | [yara_map](./yara_map/bbtok_yara_patterns.md) | [basic](https://github.com/Sab0x1D/ghostyara/blob/main/families/bbtok_basic.yar) | [behavior](https://github.com/Sab0x1D/ghostyara/blob/main/ttps/bbtok_behavior.yar) |
 | CobaltStrike | [yara_map](./yara_map/cobaltstrike_yara_patterns.md) | [basic](https://github.com/Sab0x1D/ghostyara/blob/main/families/cobaltstrike_basic.yar) | [behavior](https://github.com/Sab0x1D/ghostyara/blob/main/ttps/cobaltstrike_behavior.yar) |
+| ConnectWise | [yara_map](./yara_map/connectwise_yara_patterns.md) | [basic](https://github.com/Sab0x1D/ghostyara/blob/main/families/connectwise_basic.yar) | [behavior](https://github.com/Sab0x1D/ghostyara/blob/main/ttps/connectwise_behavior.yar) |
